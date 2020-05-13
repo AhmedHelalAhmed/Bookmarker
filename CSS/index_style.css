@@ -1,0 +1,75 @@
+
+h2
+{
+    color: #AAAAAA ;
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+
+
+.line
+{
+  width: 87%;
+  height:1px;
+  margin: auto;
+  background-color:#AAAAAA ;
+
+}
+
+.container
+{
+    background-color:#EEEEEE;
+}
+
+
+.container h3
+{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+
+.container p
+{
+    font-weight: bolder;
+}
+
+.container input 
+{
+    width: 80%;
+    margin: auto;
+
+}
+
+.error
+{
+    color: #6d0000;
+    background-color: #ffb2b2;
+    margin: auto;
+    width: 80%;
+    font-size: 20px;
+    margin-top:10px ;
+}
+
+
+.copyright
+{
+    color: #AAAAAA ;
+    margin-left: 7rem;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 1.5rem;
+}
+
+
+#siteDate a
+{
+  text-decoration: none;
+}
+
+
+#siteDate .bg-color
+{
+    background-image: linear-gradient(#EEE,#FFF);
+}
+
