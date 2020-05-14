@@ -1,92 +1,46 @@
 <html>
-
-
-<head>
+  <head>
     <title>Bookmark</title>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/index_style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index_style.css" />
+  </head>
 
+  <body>
+    <h2 class="py-4 font-weight-bolder">Bookmarker</h2>
+    <div class="line my-3"></div>
 
-</head>
+    <div class="container text-center py-5">
+      <h3 class="pb-4">Bookmark your favorite sites</h3>
 
+      <form>
+        <p class="">Sites</p>
+        <small
+          ><a
+            target="_blank"
+            href="https://chrome.google.com/webstore/detail/tabcopy/micdllihgoppmejpecmkilggmaagfdmb"
+            >Copy current tabs to preview later</a
+          ></small
+        >
+        <textarea class="form-control" id="sites"></textarea>
+        <div class="error">
+          <p id="error"></p>
+        </div>
 
+        <button id="submitBtn" type="button" class="btn btn-info mt-3">
+          Submit
+        </button>
+      </form>
+    </div>
 
-<body>
-    
+    <div class="container" id="siteDate"></div>
 
+    <div class="line my-4"></div>
 
-<h2 class="py-4 font-weight-bolder">Bookmarker</h2>
-<div class="line my-3"> </div>
+    <p class="copyright mb-2">
+      © 2020 Bookmarker BY AHMED ABD ELFATAH & Ahmed Helal Ahmed
+    </p>
 
-<div class="container text-center py-5">
-
-<h3 class="pb-4">Bookmark your favorite sites</h3>
-
-<form >
-
-<p class="">Site Name</p>
-
-<input id="siteName" type="text" placeholder="Bookmark Name" class="form-control " >
-<div  class="error">
-<p id="nameError"></p>
-</div>
-
-<p class="pt-2">Site URL</p>
-
-<input id="siteUrl" type="text" placeholder="Website URL" class="form-control mb-4" >
-<div class="error">
-    <p id="urlError"></p>
-</div>
-
-
-<button id="submitBtn" type="button" class="btn btn-info mt-3">Submit</button>
-
-
-</form>
-
-</div>
-
-
-<div class="container" id="siteDate">
-
-    
-
-</div>
-
-<div class="line my-4"></div>
-
-<p class="copyright mb-2">© 2020 Bookmarker Inc. BY AHMED ABD ELFATAH</p>
-
-
-
-
-    <script src="js/assignment_three.js"></script>
-
-</body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="js/client.js"></script>
+  </body>
 </html>
