@@ -7,22 +7,23 @@
   </head>
 
   <body>
-    <h2 class="py-4 font-weight-bolder">Bookmarker</h2>
+    <h2 class="mt-2 font-weight-bolder">Bookmarker</h2>
     <div class="line my-3"></div>
 
     <div class="container text-center py-5">
-      <h3 class="pb-4">Bookmark your favorite sites</h3>
-
       <form>
-        <p class="">Sites</p>
-        <small
-          ><a
-            target="_blank"
-            href="https://chrome.google.com/webstore/detail/tabcopy/micdllihgoppmejpecmkilggmaagfdmb"
-            >Copy current tabs to preview later</a
-          ></small
-        >
-        <textarea class="form-control" id="sites"></textarea>
+        <p class="">Enter Sites</p>
+
+        <textarea
+          placeholder="Github 
+https://github.com
+
+Facebook
+https://www.facebook.com"
+          class="form-control"
+          id="sites"
+          rows="8"
+        ></textarea>
         <div class="error">
           <p id="error"></p>
         </div>
@@ -34,11 +35,27 @@
     </div>
 
     <div class="container" id="siteDate"></div>
-
+    <div class="text-center mt-3">
+      <small
+        ><a
+          class="badge"
+          target="_blank"
+          href="https://chrome.google.com/webstore/detail/tabcopy/micdllihgoppmejpecmkilggmaagfdmb"
+          >Copy current tabs to preview later</a
+        ></small
+      >
+    </div>
     <div class="line my-4"></div>
 
     <p class="copyright mb-2">
-      © 2020 Bookmarker BY AHMED ABD ELFATAH & Ahmed Helal Ahmed
+      © 2020 Bookmarker BY
+      <a target="_blank" href="https://github.com/AhmedAbdElfatahAhmed"
+        >AHMED ABD ELFATAH</a
+      >
+      &
+      <a target="_blank" href="https://github.com/AhmedHelalAhmed/"
+        >Ahmed Helal Ahmed</a
+      >
     </p>
 
     <script src="js/client.js"></script>
