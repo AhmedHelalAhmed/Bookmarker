@@ -1,4 +1,4 @@
-# bookmarker
+# Book marker
 
 To save the opened tabs in easy way end visit it later easily in your browser.
 
@@ -12,4 +12,4 @@ To save the opened tabs in easy way end visit it later easily in your browser.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Book marker is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
