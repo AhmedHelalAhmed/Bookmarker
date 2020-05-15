@@ -1,6 +1,6 @@
 # Book marker
 
-To save the opened tabs in easy way end visit it later easily in your browser.
+To save the opened tabs in easily way end visit it later easily in your browser.
 
 # Demo
 
